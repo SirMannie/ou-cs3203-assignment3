@@ -5,5 +5,6 @@ def computeSum(numbers):
 
 	for number in numbers:
 		total += number
+	return total
 
-		print("The sum of the numbers is: ", total)
+
