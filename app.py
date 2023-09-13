@@ -1,4 +1,5 @@
 
+#computes the sum of an array of numbers
 def computeSum(numbers):
 
 	total = 0
@@ -9,6 +10,7 @@ def computeSum(numbers):
 	return total
 
 
+#computes the product of an array of numbers
 def computeProduct(numbers):
 
 	total = 1
@@ -18,6 +20,7 @@ def computeProduct(numbers):
 
 	return total
 
+#reverses the given array
 def rlist(numbers):
 
 
@@ -25,7 +28,7 @@ def rlist(numbers):
 	return numbers[::-1]
 
 
-
+#takes user input
 def getUserInput():
 	user_input = input("Enter the numbers")
 	numbers = [int(num) for num in user_input.split()]
